@@ -1,29 +1,20 @@
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  text-transform: inherit; }
-.reveal img.logo {
-  width: 25%; }
-.reveal img.img-responsive {
-  width: 100%;
-  max-width: 100%;
-  display: block;
-  text-align: center; }
-.reveal .notes {
+body {
+  width: 960px;
+  margin: 20px auto;
+  font-size: 1.1em; }
+
+section {
+  padding: 1em;
+  border: 1px solid black; }
+
+img.logo {
+  width: 10%; }
+
+.notes {
+  padding: 1em; }
+
+.no-print {
   display: none; }
-.reveal .go-wide {
-  width: 960px; }
-.reveal .nowrap {
-  white-space: nowrap; }
-.reveal .side-by-side {
-  width: 960px; }
-  .reveal .side-by-side .left-side, .reveal .side-by-side .right-side {
-    display: inline-block;
-    width: 470px;
-    vertical-align: top; }
-  .reveal .side-by-side:before, .reveal .side-by-side:after {
-    content: ' ';
-    display: table; }
-  .reveal .side-by-side:after {
-    clear: both; }
 
 .highlight, .reveal .highlight {
   background: #aaa;
